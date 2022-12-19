@@ -37,7 +37,6 @@ To run game:
 ### Server
 
 - `q`/`Q` - close the server
-- `b`/`B` - spawn a beast
 - `c` - spawn a coin
 - `t` - spawn a treasure
 - `T` - spawn a large treasure

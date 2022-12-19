@@ -39,3 +39,9 @@ To run game:
 - &darr; - move down
 - &larr; - move left
 - &rarr; - move right
+
+## Tech stack
+
+- ncurses - UNIX console graphics library for C
+- Threads
+- UNIX Sockets

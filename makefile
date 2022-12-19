@@ -13,10 +13,10 @@ $(OBJS):
 	mkdir -p $(OBJS)
 
 #Dynamik linking
-game: $(OBJG)/g_main.o $(OBJG)/g_startup.o
+game.o: $(OBJG)/g_main.o $(OBJG)/g_startup.o
 	gcc -g -Wall -pedantic $^ -o $@ -lncurses
 
-server: $(OBJS)/s_main.o $(OBJS)/s_startup.o
+server.o: $(OBJS)/s_main.o $(OBJS)/s_startup.o
 	gcc -g -Wall -pedantic $^ -o $@ -lncurses
 
 #With debugging symbols

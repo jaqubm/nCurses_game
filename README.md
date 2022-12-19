@@ -24,13 +24,13 @@ To build this project:
 To run server:
 
 ```bash
-  ./server
+  ./server.o
 ```
 
 To run game:
 
 ```bash
-  ./game
+  ./game.o
 ```
 ## Keybindings
 

@@ -1,6 +1,6 @@
 # nCurses_game
 
-It is 2D console game for maximum of 2 players.
+2D console game for maximum of 2 players
 
 ## Gameplay
 
